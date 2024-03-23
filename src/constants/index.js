@@ -23,6 +23,25 @@ import {
   jobit,
   tripguide,
   threejs,
+  cSharpIcon,
+  css3Icon,
+  dotnetIcon,
+  expressIcon,
+  html5Icon,
+  javaScriptIcon,
+  noseJsIcon,
+  postgreSqlIcon,
+  reactJsIcon,
+  reduxIcon,
+  sequelizeIcon,
+  typeScriptIcon,
+  gitHubIcon,
+  gitIcon,
+  dockerIcon,
+  ajaxIcon,
+  jqueryIcon,
+  webpackIcon,
+  mongoDbIcon,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +135,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Atención al cliente",
+    company_name: "Graphic Ronnin",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2016 - 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Atención al público, mantenimiento de hardware y software, asistencia en tareas de diseño gráfico con Photoshop, Corel Draw, Gigapixel Ai, entre otros.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Técnico en Reparación PC",
+    company_name: "Servicio Técnico JR",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2019 - 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Solucionar problemas al mal funcionamiento de Sistemas y equipos de computación. Reparación de hardware, instalación de Sistema Operativo, mantenimiento, reparación, actualización y optimización con programas y drivers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Desarrollador Full stack",
+    company_name: "E-commerce de Construcción",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Atención al publico, asistencia en tareas administrativas y consultas tecnicas.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Desarrollador Full stack",
+    company_name: "Proyecto E-commerce de Autos",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementación LocalStorage con JWT, manejo de encriptación de la información utilizando Bcrypt, implementación y manejo del CRUD al servidor, participación de la creación de una ApiRest para los datos utilizados, entre otras tareas individual y grupalmente.",
+    ],
+  },
+  {
+    title: "Full stack Junior",
+    company_name: "Pasante Full Stack en E-commerce",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "2023 - 2024",
+    points: [
+      "Desempeñé un papel integral como Desarrollador en un Ecommerce especializado en chapas. Mis responsabilidades incluyeron el desarrollo y mantenimiento de aplicaciones web, la implementación de soluciones técnicas para mejorar la experiencia del usuario, así como la colaboración en el diseño. Potencié el manejo de frameworks como React y Node.js. Además, participé en la integración de servicios, la resolución de problemas para garantizar un rendimiento óptimo del sitio.",
     ],
   },
 ];
@@ -172,7 +189,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Resolvió rápidamente los problemas de mi PC, fue profesional, amable y resolvió todas mis inquietudes de manera clara. Mi computadora funciona como nueva, ¡gracias por su servicio de calidad y atención al cliente excepcional!",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +197,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Capturó perfectamente mi visión creativa y la transformó en un diseño visualmente impactante. Cada detalle fue cuidadosamente considerado, y el resultado final superó mis expectativas. Profesionalismo, creatividad y atención al cliente de primer nivel. ¡Gracias por hacer que mi visión cobrara vida de una manera tan asombrosa!",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +205,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Desde el diseño de la interfaz hasta la implementación del backend, cada fase fue manejada con profesionalismo y destreza técnica. La aplicación resultante no solo cumple con todas mis expectativas, sino que va más allá. Una persona apasionada y comprometida que realmente entiende el desarrollo integral.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
