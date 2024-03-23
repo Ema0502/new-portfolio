@@ -19,30 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-  cSharpIcon,
-  css3Icon,
-  dotnetIcon,
-  expressIcon,
-  html5Icon,
-  javaScriptIcon,
-  noseJsIcon,
-  postgreSqlIcon,
-  reactJsIcon,
-  reduxIcon,
-  sequelizeIcon,
-  typeScriptIcon,
-  gitHubIcon,
-  gitIcon,
-  dockerIcon,
-  ajaxIcon,
-  jqueryIcon,
-  webpackIcon,
-  mongoDbIcon,
 } from "../assets";
+import imgDogo from "../assets/img/Captura de pantalla (54).png";
+import imgPokemon from "../assets/img/Captura de pantalla (56).png";
+import imgEncodedText from "../assets/img/Captura de pantalla 2024-02-01 171640.png";
+import imgToDo from "../assets/img/Captura de pantalla 2024-01-31 155313.png";
+import imgVehiBuy from "../assets/img/Captura de pantalla 2023-09-27 153019.png";
 
 export const navLinks = [
   {
@@ -215,58 +198,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce VehiBuy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Un sitio web especializado en la compra y venta de automóviles. Permite a los vendedores listar sus vehículos con detalles completos y fotografías, establecer precios y gestionar transacciones de forma segura. Los compradores pueden explorar una amplia gama de opciones de automóviles, comparar precios y características, y realizar compras convenientemente desde cualquier lugar con acceso a Internet. Además, la plataforma facilita la comunicación entre compradores y vendedores, y ofrece sistemas de pago seguros para garantizar transacciones confiables.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgreeSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: imgVehiBuy,
+    source_code_link:
+      "https://github.com/GeroPazPapa1/Proyecto-Final-De-La-Graduacion",
   },
   {
-    name: "Job IT",
+    name: "ToDo Ts",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Permite la gestión de tareas, permite a los usuarios organizar y administrar sus actividades diarias de manera eficiente. Los usuarios pueden crear listas de tareas o tacharlas para indicar que están en progreso o canceladas",
     tags: [
       {
-        name: "react",
+        name: "vite/react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -274,8 +237,71 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: imgToDo,
+    source_code_link: "https://github.com/Ema0502/ToDo-App-Ts",
+  },
+  {
+    name: "Dogs App",
+    description:
+      "Permite a los usuarios agregar nuevos perros a una lista, proporcionando detalles como nombre, raza y edad. También ofrece la capacidad de editar la información existente, lo que permite actualizar la edad o la raza de un perro según sea necesario. Además, los usuarios tienen la opción de eliminar perros de la lista si así lo desean. La interfaz de usuario es intuitiva, con botones y opciones claramente etiquetados para facilitar su uso, lo que permite a los usuarios gestionar la información de los perros de manera rápida y sencilla.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgreeSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imgDogo,
+    source_code_link: "https://github.com/Ema0502/PI-Dogs-main",
+  },
+  {
+    name: "Pokemons App",
+    description:
+      "Los usuarios pueden agregar nuevos Pokémon a una lista proporcionando detalles básicos como nombre, tipo, etc. Además, la aplicación permite a los usuarios eliminar Pokémon de la lista si ya no son necesarios. La interfaz de usuario es intuitiva y fácil de usar, con opciones claramente etiquetadas para agregar nuevos Pokémon y eliminar los existentes. Esto permite a los usuarios gestionar su colección de Pokémon de manera rápida y eficiente.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgreeSQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imgPokemon,
+    source_code_link: "https://github.com/Ema0502/PI-Pokemon-main",
+  },
+  {
+    name: "Encoded Text",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imgEncodedText,
+    source_code_link: "https://github.com/Ema0502/Encoded-Text",
   },
 ];
 
