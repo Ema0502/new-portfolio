@@ -30,6 +30,29 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+// others
+
+import cSharpIcon from "./svg/csharp-icon.svg";
+import css3Icon from "./svg/css-3-icon.svg";
+import dotnetIcon from "./svg/dotnet-NET-8.svg";
+import expressIcon from "./svg/express-icon.svg";
+import html5Icon from "./svg/html-5-icon.svg";
+import javaScriptIcon from "./svg/javascript-icon.svg";
+import noseJsIcon from "./svg/node-js-icon.svg";
+import postgreSqlIcon from "./svg/postgresql-icon.svg";
+import reactJsIcon from "./svg/react-icon.svg";
+import reduxIcon from "./svg/redux-icon.svg";
+import sequelizeIcon from "./svg/sequelize-icon.svg";
+import typeScriptIcon from "./svg/typescript-icon.svg";
+import gitIcon from "./svg/git-icon.svg";
+import gitHubIcon from "./svg/github-icon.svg";
+import dockerIcon from "./svg/docker-icon.svg";
+import ajaxIcon from "./svg/ajax-icon.svg";
+import jqueryIcon from "./svg/jquery-icon.svg";
+import webpackIcon from "./svg/webpack-icon.svg";
+import mongoDbIcon from "./svg/mongodb-svgrepo-com.svg";
+
+
 export {
   logo,
   backend,
@@ -59,4 +82,23 @@ export {
   carrent,
   jobit,
   tripguide,
+  cSharpIcon,
+  css3Icon,
+  dotnetIcon,
+  expressIcon,
+  html5Icon,
+  javaScriptIcon,
+  noseJsIcon,
+  postgreSqlIcon,
+  reactJsIcon,
+  reduxIcon,
+  sequelizeIcon,
+  typeScriptIcon,
+  gitHubIcon,
+  gitIcon,
+  dockerIcon,
+  ajaxIcon,
+  jqueryIcon,
+  webpackIcon,
+  mongoDbIcon
 };
