@@ -13,13 +13,12 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
+  programmingIcon,
+  cSharpIcon,
+  dotnetIcon,
+  expressIcon,
+  postgreSqlIcon,
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -30,33 +29,33 @@ import imgVehiBuy from "../assets/img/Captura de pantalla 2023-09-27 153019.png"
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Acerca de mi",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiencia",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Desarrolador Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Diseñador Gráfico",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Desarrollador Backend",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Creador Contenido",
     icon: creator,
   },
 ];
@@ -79,6 +78,10 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "CSharp",
+    icon: cSharpIcon,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -87,28 +90,28 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: expressIcon,
+  },
+  {
+    name: "postgreSQL",
+    icon: postgreSqlIcon,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Dotnet",
+    icon: dotnetIcon,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -120,7 +123,7 @@ const experiences = [
   {
     title: "Atención al cliente",
     company_name: "Graphic Ronnin",
-    icon: starbucks,
+    icon: programmingIcon,
     iconBg: "#383E56",
     date: "2016 - 2019",
     points: [
@@ -130,7 +133,7 @@ const experiences = [
   {
     title: "Técnico en Reparación PC",
     company_name: "Servicio Técnico JR",
-    icon: tesla,
+    icon: programmingIcon,
     iconBg: "#E6DEDD",
     date: "2019 - 2022",
     points: [
@@ -140,17 +143,17 @@ const experiences = [
   {
     title: "Desarrollador Full stack",
     company_name: "E-commerce de Construcción",
-    icon: shopify,
+    icon: programmingIcon,
     iconBg: "#383E56",
     date: "2022 - 2023",
     points: [
-      "Atención al publico, asistencia en tareas administrativas y consultas tecnicas.",
+      "Me dediqué a atender al público de manera amigable y efectiva, asegurándome de que cada cliente se sintiera valorado y bienvenido. También llevé a cabo tareas administrativas, como la gestión de archivos y la coordinación de agendas, además de resolver consultas técnicas de los clientes.",
     ],
   },
   {
     title: "Desarrollador Full stack",
     company_name: "Proyecto E-commerce de Autos",
-    icon: meta,
+    icon: programmingIcon,
     iconBg: "#E6DEDD",
     date: "2023",
     points: [
@@ -160,7 +163,7 @@ const experiences = [
   {
     title: "Full stack Junior",
     company_name: "Pasante Full Stack en E-commerce",
-    icon: meta,
+    icon: programmingIcon,
     iconBg: "#E6DEDD",
     date: "2023 - 2024",
     points: [
@@ -173,23 +176,23 @@ const testimonials = [
   {
     testimonial:
       "Resolvió rápidamente los problemas de mi PC, fue profesional, amable y resolvió todas mis inquietudes de manera clara. Mi computadora funciona como nueva, ¡gracias por su servicio de calidad y atención al cliente excepcional!",
-    name: "Sara Lee",
+    name: "Sofía Rodríguez",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "Capturó perfectamente mi visión creativa y la transformó en un diseño visualmente impactante. Cada detalle fue cuidadosamente considerado, y el resultado final superó mis expectativas. Profesionalismo, creatividad y atención al cliente de primer nivel. ¡Gracias por hacer que mi visión cobrara vida de una manera tan asombrosa!",
-    name: "Chris Brown",
+      "Capturó perfectamente mi visión creativa y la transformó en un diseño visualmente impactante. Profesionalismo, creatividad y atención al cliente de primer nivel. ¡Gracias por hacer que mi visión cobrara vida!",
+    name: "Santiago Díaz",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "Desde el diseño de la interfaz hasta la implementación del backend, cada fase fue manejada con profesionalismo y destreza técnica. La aplicación resultante no solo cumple con todas mis expectativas, sino que va más allá. Una persona apasionada y comprometida que realmente entiende el desarrollo integral.",
-    name: "Lisa Wang",
+      "Desde el diseño de la interfaz hasta la implementación del backend, cada fase fue manejada con profesionalismo y destreza técnica. Una persona apasionada y comprometida que realmente entiende el desarrollo integral.",
+    name: "Fernanda López",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -200,7 +203,7 @@ const projects = [
   {
     name: "E-commerce VehiBuy",
     description:
-      "Un sitio web especializado en la compra y venta de automóviles. Permite a los vendedores listar sus vehículos con detalles completos y fotografías, establecer precios y gestionar transacciones de forma segura. Los compradores pueden explorar una amplia gama de opciones de automóviles, comparar precios y características, y realizar compras convenientemente desde cualquier lugar con acceso a Internet. Además, la plataforma facilita la comunicación entre compradores y vendedores, y ofrece sistemas de pago seguros para garantizar transacciones confiables.",
+      "Un sitio web para comprar y vender autos. Vendedores pueden listar, fijar precios y gestionar transacciones seguras. Compradores exploran opciones, comparan y compran en línea con comunicación y pagos seguros.",
     tags: [
       {
         name: "react",
@@ -243,7 +246,7 @@ const projects = [
   {
     name: "Dogs App",
     description:
-      "Permite a los usuarios agregar nuevos perros a una lista, proporcionando detalles como nombre, raza y edad. También ofrece la capacidad de editar la información existente, lo que permite actualizar la edad o la raza de un perro según sea necesario. Además, los usuarios tienen la opción de eliminar perros de la lista si así lo desean. La interfaz de usuario es intuitiva, con botones y opciones claramente etiquetados para facilitar su uso, lo que permite a los usuarios gestionar la información de los perros de manera rápida y sencilla.",
+      "Permite a los usuarios agregar, editar y eliminar perros de una lista con detalles como nombre, raza y edad. La interfaz es intuitiva, con botones claramente etiquetados para una gestión rápida y sencilla de la información de los perros.",
     tags: [
       {
         name: "react",
@@ -264,7 +267,7 @@ const projects = [
   {
     name: "Pokemons App",
     description:
-      "Los usuarios pueden agregar nuevos Pokémon a una lista proporcionando detalles básicos como nombre, tipo, etc. Además, la aplicación permite a los usuarios eliminar Pokémon de la lista si ya no son necesarios. La interfaz de usuario es intuitiva y fácil de usar, con opciones claramente etiquetadas para agregar nuevos Pokémon y eliminar los existentes. Esto permite a los usuarios gestionar su colección de Pokémon de manera rápida y eficiente.",
+      "Los usuarios pueden agregar y eliminar Pokémon de una lista, proporcionando detalles como nombre y tipo. La interfaz es intuitiva, con opciones claras para gestionar la colección de manera eficiente.",
     tags: [
       {
         name: "react",
@@ -285,7 +288,7 @@ const projects = [
   {
     name: "Encoded Text",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "El sitio ofrece una herramienta para encriptar y desencriptar mensajes de forma segura. Los usuarios ingresan su mensaje, eligen un método de encriptación y comparten el mensaje encriptado y viceversa",
     tags: [
       {
         name: "javascript",
