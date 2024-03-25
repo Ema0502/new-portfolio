@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #C1CEFF;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #282F4E;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -45,8 +58,8 @@
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #009 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #009 97.5%);
 }
 
 .orange-text-gradient {
