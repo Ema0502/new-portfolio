@@ -9,7 +9,6 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
@@ -92,10 +91,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "Express",
-    icon: expressIcon,
   },
   {
     name: "postgreSQL",
