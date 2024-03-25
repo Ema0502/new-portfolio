@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -52,6 +52,8 @@ import jqueryIcon from "./svg/jquery-icon.svg";
 import webpackIcon from "./svg/webpack-icon.svg";
 import mongoDbIcon from "./svg/mongodb-svgrepo-com.svg";
 
+import programmingIcon from "../assets/company/3d-programming.png";
+
 
 export {
   logo,
@@ -100,5 +102,6 @@ export {
   ajaxIcon,
   jqueryIcon,
   webpackIcon,
-  mongoDbIcon
+  mongoDbIcon,
+  programmingIcon
 };
