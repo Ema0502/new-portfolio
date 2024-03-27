@@ -51,6 +51,12 @@ import ajaxIcon from "./svg/ajax-icon.svg";
 import jqueryIcon from "./svg/jquery-icon.svg";
 import webpackIcon from "./svg/webpack-icon.svg";
 import mongoDbIcon from "./svg/mongodb-svgrepo-com.svg";
+import awsIcon from "./svg/aws-icon.svg";
+import firebaseIcon from "./svg/firebase-icon.svg";
+import netlifyIcon from  "./svg/netlify-icon.svg";
+import railwayIcon from  './svg/railway-icon.svg';
+import visualstudioIcon from  "./svg/visualstudio-icon.svg";
+import visualstudiocodeIcon from  "./svg/visualstudiocode-icon.svg";
 
 import programmingIcon from "../assets/company/3d-programming.png";
 
@@ -103,5 +109,11 @@ export {
   jqueryIcon,
   webpackIcon,
   mongoDbIcon,
-  programmingIcon
+  programmingIcon,
+  awsIcon,
+  firebaseIcon,
+  netlifyIcon,
+  railwayIcon,
+  visualstudioIcon,
+  visualstudiocodeIcon
 };

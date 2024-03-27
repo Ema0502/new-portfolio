@@ -18,6 +18,15 @@ import {
   dotnetIcon,
   expressIcon,
   postgreSqlIcon,
+  sequelizeIcon,
+  ajaxIcon,
+  gitHubIcon,
+  jqueryIcon,
+  webpackIcon,
+  awsIcon,
+  netlifyIcon,
+  visualstudioIcon,
+  visualstudiocodeIcon,
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -89,12 +98,32 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "WebPack",
+    icon: webpackIcon,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: expressIcon,
+  },
+  {
+    name: "Jquery",
+    icon: jqueryIcon,
+  },
+  {
+    name: "Ajax",
+    icon: ajaxIcon,
+  },
+  {
     name: "postgreSQL",
     icon: postgreSqlIcon,
+  },
+  {
+    name: "Sequelize",
+    icon: sequelizeIcon,
   },
   {
     name: "MongoDB",
@@ -109,8 +138,28 @@ const technologies = [
     icon: git,
   },
   {
+    name: "github",
+    icon: gitHubIcon,
+  },
+  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "aws",
+    icon: awsIcon,
+  },
+  {
+    name: "netlify",
+    icon: netlifyIcon,
+  },
+  {
+    name: "visualstudio",
+    icon: visualstudioIcon,
+  },
+  {
+    name: "visualstudiocode",
+    icon: visualstudiocodeIcon,
   },
 ];
 
