@@ -32,10 +32,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas gl={{ preserveDrawingBuffer: true }}>
-      <Suspense>
         <Ball imgUrl={icon} />
-      </Suspense>
-
       <Preload all />
     </Canvas>
   );
