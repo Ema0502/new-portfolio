@@ -185,7 +185,7 @@ const experiences = [
     ],
   },
   {
-    title: "Desarrollador Full stack",
+    title: "Técnico y Administrativo",
     company_name: "E-commerce de Construcción",
     icon: programmingIcon,
     iconBg: "#383E56",
