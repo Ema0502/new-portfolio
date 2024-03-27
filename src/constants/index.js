@@ -27,6 +27,7 @@ import {
   netlifyIcon,
   visualstudioIcon,
   visualstudiocodeIcon,
+  jestIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -140,6 +141,10 @@ const technologies = [
   {
     name: "github",
     icon: gitHubIcon,
+  },
+  {
+    name: "jest",
+    icon: jestIcon,
   },
   {
     name: "docker",

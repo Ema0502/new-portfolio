@@ -57,6 +57,7 @@ import netlifyIcon from  "./svg/netlify-icon.svg";
 import railwayIcon from  './svg/railway-icon.svg';
 import visualstudioIcon from  "./svg/visualstudio-icon.svg";
 import visualstudiocodeIcon from  "./svg/visualstudiocode-icon.svg";
+import jestIcon from "./svg/jest-icon.svg"
 
 import programmingIcon from "../assets/company/3d-programming.png";
 
@@ -115,5 +116,6 @@ export {
   netlifyIcon,
   railwayIcon,
   visualstudioIcon,
-  visualstudiocodeIcon
+  visualstudiocodeIcon,
+  jestIcon
 };
