@@ -216,7 +216,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2023 - 2024",
     points: [
-      "Desempeñé un papel integral como Desarrollador en un Ecommerce especializado en chapas. Mis responsabilidades incluyeron el desarrollo y mantenimiento de aplicaciones web, la implementación de soluciones técnicas para mejorar la experiencia del usuario, así como la colaboración en el diseño. Potencié el manejo de frameworks como React y Node.js. Además, participé en la integración de servicios, la resolución de problemas para garantizar un rendimiento óptimo del sitio.",
+      "Desempeñé un papel como Desarrollador en un Ecommerce especializado en chapas. Mis responsabilidades incluyeron el desarrollo y mantenimiento de aplicaciones web, la implementación de soluciones técnicas para mejorar la experiencia del usuario, así como la colaboración en el diseño. Participé en la integración de servicios, la resolución de problemas para garantizar un rendimiento óptimo del sitio.",
     ],
   },
 ];
