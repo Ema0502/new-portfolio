@@ -27,7 +27,9 @@ import {
   netlifyIcon,
   visualstudioIcon,
   visualstudiocodeIcon,
-  jestIcon
+  jestIcon,
+  sqlServerIcon,
+  entityFrameworkIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -103,6 +105,10 @@ const technologies = [
     icon: webpackIcon,
   },
   {
+    name: "Ajax",
+    icon: ajaxIcon,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -111,12 +117,8 @@ const technologies = [
     icon: expressIcon,
   },
   {
-    name: "Jquery",
-    icon: jqueryIcon,
-  },
-  {
-    name: "Ajax",
-    icon: ajaxIcon,
+    name: "Entity Framework",
+    icon: entityFrameworkIcon,
   },
   {
     name: "postgreSQL",
@@ -127,8 +129,8 @@ const technologies = [
     icon: sequelizeIcon,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "sqlServer",
+    icon: sqlServerIcon,
   },
   {
     name: "Dotnet",

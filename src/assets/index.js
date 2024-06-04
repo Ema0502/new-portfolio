@@ -58,6 +58,8 @@ import railwayIcon from  './svg/railway-icon.svg';
 import visualstudioIcon from  "./svg/visualstudio-icon.svg";
 import visualstudiocodeIcon from  "./svg/visualstudiocode-icon.svg";
 import jestIcon from "./svg/jest-icon.svg"
+import sqlServerIcon from "./svg/sqlserver-icon.svg";
+import entityFrameworkIcon from "./svg/entity-framework-icon.svg";
 
 import programmingIcon from "../assets/company/3d-programming.png";
 
@@ -117,5 +119,7 @@ export {
   railwayIcon,
   visualstudioIcon,
   visualstudiocodeIcon,
-  jestIcon
+  jestIcon,
+  sqlServerIcon,
+  entityFrameworkIcon
 };
