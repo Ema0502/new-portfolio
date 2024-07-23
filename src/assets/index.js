@@ -60,7 +60,7 @@ import visualstudiocodeIcon from  "./svg/visualstudiocode-icon.svg";
 import jestIcon from "./svg/jest-icon.svg"
 import sqlServerIcon from "./svg/sqlserver-icon.svg";
 import entityFrameworkIcon from "./svg/entity-framework-icon.svg";
-
+import aspnetcoreIcon from "./svg/aspnetcore-icon.svg";
 import programmingIcon from "../assets/company/3d-programming.png";
 
 
@@ -121,5 +121,6 @@ export {
   visualstudiocodeIcon,
   jestIcon,
   sqlServerIcon,
-  entityFrameworkIcon
+  entityFrameworkIcon,
+  aspnetcoreIcon
 };

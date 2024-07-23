@@ -29,7 +29,8 @@ import {
   visualstudiocodeIcon,
   jestIcon,
   sqlServerIcon,
-  entityFrameworkIcon
+  entityFrameworkIcon,
+  aspnetcoreIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -117,10 +118,6 @@ const technologies = [
     icon: expressIcon,
   },
   {
-    name: "Entity Framework",
-    icon: entityFrameworkIcon,
-  },
-  {
     name: "postgreSQL",
     icon: postgreSqlIcon,
   },
@@ -129,12 +126,20 @@ const technologies = [
     icon: sequelizeIcon,
   },
   {
+    name: "Entity Framework",
+    icon: entityFrameworkIcon,
+  },
+  {
     name: "sqlServer",
     icon: sqlServerIcon,
   },
   {
     name: "Dotnet",
     icon: dotnetIcon,
+  },
+  {
+    name: "aspnetcore",
+    icon: aspnetcoreIcon,
   },
   {
     name: "git",
@@ -151,10 +156,6 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
-  {
-    name: "aws",
-    icon: awsIcon,
   },
   {
     name: "netlify",
