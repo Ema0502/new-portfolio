@@ -30,7 +30,10 @@ import {
   jestIcon,
   sqlServerIcon,
   entityFrameworkIcon,
-  aspnetcoreIcon
+  aspnetcoreIcon,
+  angularIcon,
+  rxjsIcon,
+  boostrapIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -94,6 +97,14 @@ const technologies = [
     icon: cSharpIcon,
   },
   {
+    name: "Angular",
+    icon: angularIcon,
+  },
+  {
+    name: "RxJs",
+    icon: rxjsIcon,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -108,6 +119,10 @@ const technologies = [
   {
     name: "Ajax",
     icon: ajaxIcon,
+  },
+  {
+    name: "Boostrap",
+    icon: boostrapIcon,
   },
   {
     name: "Node JS",

@@ -62,6 +62,10 @@ import sqlServerIcon from "./svg/sqlserver-icon.svg";
 import entityFrameworkIcon from "./svg/entity-framework-icon.svg";
 import aspnetcoreIcon from "./svg/aspnetcore-icon.svg";
 import programmingIcon from "../assets/company/3d-programming.png";
+import angularIcon from "./svg/angular-icon.svg";
+import rxjsIcon from "./svg/rxjs-icon.svg";
+import boostrapIcon from "./svg/boostrap-icon.svg";
+// import bootstrapIcon from "./svg/bootstrap-icon.svg";
 
 
 export {
@@ -122,5 +126,8 @@ export {
   jestIcon,
   sqlServerIcon,
   entityFrameworkIcon,
-  aspnetcoreIcon
+  aspnetcoreIcon,
+  angularIcon,
+  rxjsIcon,
+  boostrapIcon
 };
