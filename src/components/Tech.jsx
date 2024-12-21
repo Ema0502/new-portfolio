@@ -14,8 +14,9 @@ const Tech = () => {
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <img src={technology.icon} alt="Programming Icon" />
+          <div className="grid place-items-center" key={technology.name}>
+            <img className="w-28 h-28" src={technology.icon} alt="Programming Icon" />
+            <h2>{technology.name}</h2>
           </div>
         ))}
       </div>

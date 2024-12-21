@@ -33,13 +33,20 @@ import {
   aspnetcoreIcon,
   angularIcon,
   rxjsIcon,
-  boostrapIcon
+  bootstrapIcon,
+  azureDevopsIcon,
+  tailwindIcon,
+  pythonIcon,
+  graphqlIcon,
+  swaggerIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
 import imgEncodedText from "../assets/img/Captura de pantalla 2024-02-01 171640.png";
 import imgToDo from "../assets/img/Captura de pantalla 2024-01-31 155313.png";
 import imgVehiBuy from "../assets/img/Captura de pantalla 2023-09-27 153019.png";
+import imgSwagger from "../assets/img/Sin título-1.jpg";
+import imgClient from "../assets/img/Sin título-2.jpg";
 
 export const navLinks = [
   {
@@ -77,12 +84,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
+  },
+  {
+    name: "Python",
+    icon: pythonIcon,
   },
   {
     name: "JavaScript",
@@ -93,7 +104,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "CSharp",
+    name: "C#",
     icon: cSharpIcon,
   },
   {
@@ -105,11 +116,11 @@ const technologies = [
     icon: rxjsIcon,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -121,19 +132,23 @@ const technologies = [
     icon: ajaxIcon,
   },
   {
-    name: "Boostrap",
-    icon: boostrapIcon,
+    name: "Bootstrap",
+    icon: bootstrapIcon,
   },
   {
-    name: "Node JS",
+    name: "Tailwind",
+    icon: tailwindIcon,
+  },
+  {
+    name: "Node Js",
     icon: nodejs,
   },
   {
-    name: "Express JS",
+    name: "Express Js",
     icon: expressIcon,
   },
   {
-    name: "postgreSQL",
+    name: "PostgreSQL",
     icon: postgreSqlIcon,
   },
   {
@@ -145,43 +160,51 @@ const technologies = [
     icon: entityFrameworkIcon,
   },
   {
-    name: "sqlServer",
+    name: "SQL Server",
     icon: sqlServerIcon,
   },
   {
-    name: "Dotnet",
+    name: ".NET",
     icon: dotnetIcon,
   },
   {
-    name: "aspnetcore",
+    name: "ASP.NET Core",
     icon: aspnetcoreIcon,
   },
   {
-    name: "git",
+    name: "Swagger",
+    icon: swaggerIcon,
+  },
+  {
+    name: "GraphQL",
+    icon: graphqlIcon,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "github",
+    name: "Github",
     icon: gitHubIcon,
   },
   {
-    name: "jest",
+    name: "Jest",
     icon: jestIcon,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
-    name: "netlify",
-    icon: netlifyIcon,
+    name: "Azure DevOps",
+    icon: azureDevopsIcon,
   },
   {
-    name: "visualstudio",
+    name: "Visual Studio",
     icon: visualstudioIcon,
   },
   {
-    name: "visualstudiocode",
+    name: "Visual Studio Code",
     icon: visualstudiocodeIcon,
   },
 ];
@@ -273,16 +296,20 @@ const projects = [
       "Un sitio web para comprar y vender autos. Vendedores pueden listar, fijar precios y gestionar transacciones seguras. Compradores exploran opciones, comparan y compran en línea con comunicación y pagos seguros.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "postgreeSQL",
+        name: "Express Js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreeSQL",
+        color: "orange-text-gradient",
       },
     ],
     image: imgVehiBuy,
@@ -295,15 +322,15 @@ const projects = [
       "Permite la gestión de tareas, permite a los usuarios organizar y administrar sus actividades diarias de manera eficiente. Los usuarios pueden crear listas de tareas o tacharlas para indicar que están en progreso o canceladas",
     tags: [
       {
-        name: "vite/react",
+        name: "Vite/React",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -311,46 +338,54 @@ const projects = [
     source_code_link: "https://github.com/Ema0502/ToDo-App-Ts",
   },
   {
-    name: "Dogs App",
+    name: "Core Api",
     description:
-      "Permite a los usuarios agregar, editar y eliminar perros de una lista con detalles como nombre, raza y edad. La interfaz es intuitiva, con botones claramente etiquetados para una gestión rápida y sencilla de la información de los perros.",
+      "Esta API facilita la gestión de datos entre diferentes capas de la aplicación. Los controladores manejan las solicitudes HTTP, mientras que AutoMapper se encarga de mapear automáticamente los objetos entre las entidades del modelo y los DTOs.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Swagger",
         color: "green-text-gradient",
       },
       {
-        name: "postgreeSQL",
+        name: "ASP.NET",
         color: "pink-text-gradient",
       },
+      {
+        name: "SQL Server",
+        color: "orange-text-gradient",
+      },
     ],
-    image: imgDogo,
-    source_code_link: "https://github.com/Ema0502/PI-Dogs-main",
+    image: imgSwagger,
+    source_code_link: "https://github.com/Ema0502/WebApplication1",
   },
   {
-    name: "Pokemons App",
+    name: "E-commerce Client",
     description:
-      "Los usuarios pueden agregar y eliminar Pokémon de una lista, proporcionando detalles como nombre y tipo. La interfaz es intuitiva, con opciones claras para gestionar la colección de manera eficiente.",
+      "Este ecommerce permite a los usuarios crear cuentas, explorar productos, agregarlos al carrito y realizar compras de manera fácil y segura. La interfaz es muy intuitiva y sencilla para los usuarios.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "RxJs",
         color: "green-text-gradient",
       },
       {
-        name: "postgreeSQL",
+        name: "Typescript",
         color: "pink-text-gradient",
       },
+      {
+        name: "AuthGuard",
+        color: "orange-text-gradient",
+      },
     ],
-    image: imgPokemon,
-    source_code_link: "https://github.com/Ema0502/PI-Pokemon-main",
+    image: imgClient,
+    source_code_link: "https://github.com/Ema0502/new-project-ng",
   },
   {
     name: "Encoded Text",
@@ -358,20 +393,45 @@ const projects = [
       "El sitio ofrece una herramienta para encriptar y desencriptar mensajes de forma segura. Los usuarios ingresan su mensaje, eligen un método de encriptación y comparten el mensaje encriptado y viceversa",
     tags: [
       {
-        name: "javascript",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
     image: imgEncodedText,
     source_code_link: "https://github.com/Ema0502/Encoded-Text",
+  },
+  {
+    name: "Dogs App",
+    description:
+      "Permite a los usuarios agregar, editar y eliminar perros de una lista con detalles como nombre, raza y edad. La interfaz es intuitiva, con botones claramente etiquetados para una gestión rápida.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreeSQL",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: imgDogo,
+    source_code_link: "https://github.com/Ema0502/PI-Dogs-main",
   },
 ];
 

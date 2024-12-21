@@ -64,8 +64,12 @@ import aspnetcoreIcon from "./svg/aspnetcore-icon.svg";
 import programmingIcon from "../assets/company/3d-programming.png";
 import angularIcon from "./svg/angular-icon.svg";
 import rxjsIcon from "./svg/rxjs-icon.svg";
-import boostrapIcon from "./svg/boostrap-icon.svg";
-// import bootstrapIcon from "./svg/bootstrap-icon.svg";
+import bootstrapIcon from "./svg/bootstrap-icon.svg";
+import pythonIcon from "./svg/python-icon.svg";
+import azureDevopsIcon from "./svg/azure-devops-icon.svg";
+import graphqlIcon from "./svg/graphql-icon.svg";
+import swaggerIcon from "./svg/swagger-icon.svg";
+import tailwindIcon from "./svg/tailwind-icon.svg";
 
 
 export {
@@ -129,5 +133,10 @@ export {
   aspnetcoreIcon,
   angularIcon,
   rxjsIcon,
-  boostrapIcon
+  bootstrapIcon,
+  azureDevopsIcon,
+  tailwindIcon,
+  pythonIcon,
+  graphqlIcon,
+  swaggerIcon
 };
