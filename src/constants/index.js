@@ -38,7 +38,11 @@ import {
   tailwindIcon,
   pythonIcon,
   graphqlIcon,
-  swaggerIcon
+  swaggerIcon,
+  powerAppsIcon,
+  powerAutomateIcon,
+  aiBuilderIcon,
+  aiDocumentIntelligenceIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
 import imgPokemon from "../assets/img/Captura de pantalla (56).png";
@@ -196,17 +200,21 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "Azure DevOps",
-    icon: azureDevopsIcon,
+    name: "Power Apps",
+    icon: powerAppsIcon,
   },
   {
-    name: "Visual Studio",
-    icon: visualstudioIcon,
+    name: "Power Automate",
+    icon: powerAutomateIcon,
   },
   {
-    name: "Visual Studio Code",
-    icon: visualstudiocodeIcon,
+    name: "ai Builder",
+    icon: aiBuilderIcon,
   },
+  {
+    name: "AI Document Intelligence",
+    icon: aiDocumentIntelligenceIcon,
+  }
 ];
 
 const experiences = [
@@ -237,17 +245,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "2022 - 2023",
     points: [
-      "Me dediqué a atender al público de manera amigable y efectiva, asegurándome de que cada cliente se sintiera valorado y bienvenido. También llevé a cabo tareas administrativas, como la gestión de archivos y la coordinación de agendas, además de resolver consultas técnicas de los clientes.",
-    ],
-  },
-  {
-    title: "Desarrollador Full stack",
-    company_name: "Proyecto E-commerce de Autos",
-    icon: programmingIcon,
-    iconBg: "#E6DEDD",
-    date: "2023",
-    points: [
-      "Implementación LocalStorage con JWT, manejo de encriptación de la información utilizando Bcrypt, implementación y manejo del CRUD al servidor, participación de la creación de una ApiRest para los datos utilizados, entre otras tareas individual y grupalmente.",
+      "Mi tarea era atender al público de manera amigable y efectiva, asegurando de que cada cliente se sintiera valorado y bienvenido. También llevé a cabo tareas administrativas, como la gestión de archivos y la coordinación de agendas, además de resolver consultas técnicas de los clientes.",
     ],
   },
   {
@@ -258,6 +256,26 @@ const experiences = [
     date: "2023 - 2024",
     points: [
       "Desempeñé un papel como Desarrollador en un Ecommerce especializado en chapas. Mis responsabilidades incluyeron el desarrollo y mantenimiento de aplicaciones web, la implementación de soluciones técnicas para mejorar la experiencia del usuario, así como la colaboración en el diseño. Participé en la integración de servicios, la resolución de problemas para garantizar un rendimiento óptimo del sitio.",
+    ],
+  },
+  {
+    title: "Desarrollador Full stack",
+    company_name: "Innovation and Strategy",
+    icon: programmingIcon,
+    iconBg: "#E6DEDD",
+    date: "2024",
+    points: [
+      "He trabajado con Angular, Tailwind CSS, y Bootstrap para crear interfaces de usuario modernas y responsivas, mientras que en el backend he utilizado C# y .NET para construir APIs RESTful y gestionar bases de datos con SQL Server. Estoy familiarizado con herramientas como Swagger y Postman para pruebas y documentación de APIs, y participo activamente en proyectos ágiles con Scrum, utilizando Jira y Microsoft Teams para la gestión y colaboración. Además, tengo experiencia en prácticas DevOps y colaboración en diseño con Figma.",
+    ],
+  },
+  {
+    title: "Desarrollador Full stack",
+    company_name: "Plataforma Integral de RRHH",
+    icon: programmingIcon,
+    iconBg: "#E6DEDD",
+    date: "2024",
+    points: [
+      "Poseo experiencia en Power Apps, Power Automate y Azure Document Intelligence para la creación de soluciones automatizadas con AI. He participado en la creación de una aplicación en Power Apps con una interfaz de usuario donde los usuarios cargan archivos imagenes y archivos PDF. A través de Power Automate, gestioné el flujo de datos, enviando los archivos cargados a Azure Document Intelligence para su procesamiento. Azure se encarga de leer el contenido del PDF, guarda una copia en la nube y devuelve los datos extraídos en formato JSON. Finalmente, Power Apps muestra el JSON retornado por Power Automate, proporcionando al usuario la información procesada de manera eficiente.",
     ],
   },
 ];

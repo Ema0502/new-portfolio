@@ -70,6 +70,10 @@ import azureDevopsIcon from "./svg/azure-devops-icon.svg";
 import graphqlIcon from "./svg/graphql-icon.svg";
 import swaggerIcon from "./svg/swagger-icon.svg";
 import tailwindIcon from "./svg/tailwind-icon.svg";
+import powerAppsIcon from "./svg/powerapps-icon.svg";
+import powerAutomateIcon from "./svg/powerautomate-icon.svg";
+import aiBuilderIcon from "./svg/aibuilder-icon.svg";
+import aiDocumentIntelligenceIcon from "./svg/aidocumentintelligence-icon.svg";
 
 
 export {
@@ -138,5 +142,9 @@ export {
   tailwindIcon,
   pythonIcon,
   graphqlIcon,
-  swaggerIcon
+  swaggerIcon,
+  powerAppsIcon,
+  powerAutomateIcon,
+  aiBuilderIcon,
+  aiDocumentIntelligenceIcon
 };
