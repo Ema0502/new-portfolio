@@ -33,7 +33,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-full mx-auto'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center relative'>
           <img
             src={toggle ? close : menu}
             alt='menu'
