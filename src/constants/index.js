@@ -21,7 +21,6 @@ import {
   sequelizeIcon,
   ajaxIcon,
   gitHubIcon,
-  jqueryIcon,
   webpackIcon,
   awsIcon,
   netlifyIcon,
@@ -45,7 +44,6 @@ import {
   aiDocumentIntelligenceIcon
 } from "../assets";
 import imgDogo from "../assets/img/Captura de pantalla (54).png";
-import imgPokemon from "../assets/img/Captura de pantalla (56).png";
 import imgEncodedText from "../assets/img/Captura de pantalla 2024-02-01 171640.png";
 import imgToDo from "../assets/img/Captura de pantalla 2024-01-31 155313.png";
 import imgVehiBuy from "../assets/img/Captura de pantalla 2023-09-27 153019.png";
@@ -219,33 +217,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Atención al cliente",
-    company_name: "Graphic Ronnin",
-    icon: programmingIcon,
-    iconBg: "#383E56",
-    date: "2016 - 2019",
-    points: [
-      "Atención al público, mantenimiento de hardware y software, asistencia en tareas de diseño gráfico con Photoshop, Corel Draw, Gigapixel Ai, entre otros.",
-    ],
-  },
-  {
     title: "Técnico en Reparación PC",
     company_name: "Servicio Técnico JR",
     icon: programmingIcon,
     iconBg: "#E6DEDD",
-    date: "2019 - 2022",
+    date: "2019 - 2023",
     points: [
-      "Solucionar problemas al mal funcionamiento de Sistemas y equipos de computación. Reparación de hardware, instalación de Sistema Operativo, mantenimiento, reparación, actualización y optimización con programas y drivers.",
-    ],
-  },
-  {
-    title: "Técnico y Administrativo",
-    company_name: "E-commerce de Construcción",
-    icon: programmingIcon,
-    iconBg: "#383E56",
-    date: "2022 - 2023",
-    points: [
-      "Mi tarea era atender al público de manera amigable y efectiva, asegurando de que cada cliente se sintiera valorado y bienvenido. También llevé a cabo tareas administrativas, como la gestión de archivos y la coordinación de agendas, además de resolver consultas técnicas de los clientes.",
+      "Encargado de diagnosticar y solucionar problemas relacionados con el mal funcionamiento de sistemas y equipos de computación. Realizo reparaciones de hardware, instalación y actualización de sistemas operativos, así como mantenimiento y optimización de equipos mediante programas y controladores adecuados.",
     ],
   },
   {
@@ -255,17 +233,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2023 - 2024",
     points: [
-      "Desempeñé un papel como Desarrollador en un Ecommerce especializado en chapas. Mis responsabilidades incluyeron el desarrollo y mantenimiento de aplicaciones web, la implementación de soluciones técnicas para mejorar la experiencia del usuario, así como la colaboración en el diseño. Participé en la integración de servicios, la resolución de problemas para garantizar un rendimiento óptimo del sitio.",
-    ],
-  },
-  {
-    title: "Desarrollador Full stack",
-    company_name: "Innovation and Strategy",
-    icon: programmingIcon,
-    iconBg: "#E6DEDD",
-    date: "2024",
-    points: [
-      "He trabajado con Angular, Tailwind CSS, y Bootstrap para crear interfaces de usuario modernas y responsivas, mientras que en el backend he utilizado C# y .NET para construir APIs RESTful y gestionar bases de datos con SQL Server. Estoy familiarizado con herramientas como Swagger y Postman para pruebas y documentación de APIs, y participo activamente en proyectos ágiles con Scrum, utilizando Jira y Microsoft Teams para la gestión y colaboración. Además, tengo experiencia en prácticas DevOps y colaboración en diseño con Figma.",
+      "Como Desarrollador en un Ecommerce especializado en chapas, fui responsable del desarrollo y mantenimiento de aplicaciones web, implementando soluciones técnicas para optimizar la experiencia del usuario. Colaboré en el diseño de nuevas funcionalidades, la integración de servicios y la resolución de problemas para asegurar el rendimiento y la estabilidad del sitio.",
     ],
   },
   {
@@ -278,6 +246,16 @@ const experiences = [
       "Poseo experiencia en Power Apps, Power Automate y Azure Document Intelligence para la creación de soluciones automatizadas con AI. He participado en la creación de una aplicación en Power Apps con una interfaz de usuario donde los usuarios cargan archivos imagenes y archivos PDF. A través de Power Automate, gestioné el flujo de datos, enviando los archivos cargados a Azure Document Intelligence para su procesamiento. Azure se encarga de leer el contenido del PDF, guarda una copia en la nube y devuelve los datos extraídos en formato JSON. Finalmente, Power Apps muestra el JSON retornado por Power Automate, proporcionando al usuario la información procesada de manera eficiente.",
     ],
   },
+  {
+    title: "Desarrollador Full stack",
+    company_name: "Innovation and Strategy",
+    icon: programmingIcon,
+    iconBg: "#E6DEDD",
+    date: "2024 - 2025",
+    points: [
+      "He trabajado con tecnologías avanzadas en el desarrollo tanto de frontend como de backend. En el frontend, he utilizado Angular, Tailwind CSS y Bootstrap para crear interfaces de usuario modernas y responsivas, incorporando Micro Frontends (MFE) para una arquitectura modular. En el backend, he trabajado con C# y .NET para desarrollar APIs RESTful y gestionar bases de datos con SQL Server, además de implementar arquitecturas basadas en microservicios para soluciones más escalables. Cuento con experiencia en herramientas como Swagger y Postman para pruebas y documentación de APIs, y participo en proyectos ágiles con Scrum, utilizando Jira y Microsoft Teams para la gestión y colaboración. También tengo conocimientos en prácticas DevOps y en colaboración con equipos de diseño a través de Figma."
+    ],
+  }
 ];
 
 const testimonials = [
@@ -318,7 +296,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Nodejs",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
@@ -436,7 +414,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Nodejs",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
